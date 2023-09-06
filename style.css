@@ -1,24 +1,30 @@
 body {
       font-family: 'Montserrat', san-serif;
+
 }
 
 header {
-      display: flex;
-      flex-direction: row;
+      max-width: 30%;
+      margin: 0 35%;
 }
 
 .top {
-      width: 40%;
+      text-align: center;
+      
 
 }
 
 .top img {
-      padding: 2rem;
+      height: 200px;
 }
 
 .instructions {
-      max-width: 40%;
-      padding: 2rem
+
+      padding: 2rem 0;
+}
+
+a, a:visited, a:hover{
+      color: blue;
 }
 
 sup {
@@ -92,6 +98,10 @@ sup {
       left: -5rem;
 }
 
+.nums {
+      font-size: 1.5rem;
+}
+
 
 .leadTip:hover .leadHelp {
       visibility: visible;
@@ -113,12 +123,14 @@ sup {
       background-color: #fecd2f;
       color: #000;
       min-width: 189px;
-      padding: 0 2px;
+      padding: 2px;
+      margin-top: 1rem;
 }
 
 .y-box input {
       background-color: #fecd2f;
       color: #000;
+      max-width: 95%;
 }
 
 .y-box h3 {

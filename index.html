@@ -14,7 +14,7 @@
                   <img src = "doandbe_logo_vertical.webp">
             </div>
             <div class="instructions">
-                  <p>Help build your marketing and advertising budget by estimating the website traffic and lead volume required to generate your monthly sales goal. With this tool, you can edit the fields in yellow to drive the most accurate estimates. Your sales and marketing team can help you estimate the monthly spending required to drive results based on the results.</p>
+                  <p>The team at DO&Be Agency created this estimator tool to assist you in estimating the amount of website traffic and new leads necessary to meet your sales target. This tool allows you to input your sales objectives and known metrics to refine your strategy accordingly. <a href="#">Review the blog post</a> for more information on using this calculator.</p>
             </div>
       </header>
       <div class="inputs">
@@ -22,47 +22,48 @@
                   <h2>Monthly Goals</h2>
                   <div class="y-box box">
                         <div class="salesTip">
-                              <h3>Home Sales c17 </h3>
+                              <h3>Home Sales</h3>
                               <span class="salesHelp">Home Sales help: 5 is a placeholder number for your total sales goal. Keeping seasonality and production, you can edit the number to reflect your desired goal for a given month.</span>
                         </div>                 
-                        <input type="text" oninput="totalLeadsGoal()" id="TotalSales" name="TotalSales" value="5">
+                        <input type="text" oninput="totalLeadsGoal()" id="TotalSales" class="nums" name="TotalSales" value="5">
                   </div>
                   <div class="results">
                         <div class="b-box box">
-                              <h3>Website Traffic g17/h17 <br><span id="wtrcalc">0</span></h3>
+                              <h3>Website Traffic<br><span id="wtrcalc" class="nums">0</span></h3>
                         </div>
                         <div class="b-box box">
-                              <h3>Lead Volume G17 <br><span id="ntlcalc">0</span></h3>
+                              <h3>Lead Volume<br><span id="ntlcalc" class="nums">0</span></h3>
                         </div>
                         <div class="b-box box">
-                              <h3>Appointments Volume E17 = C17/D17<br><span id="apptcalc">0</span></h3>
+                              <h3>Appointments Volume<br><span id="apptcalc" class="nums">0</span></h3>
                         </div>
                   </div>
                   <div class="refine">
                         <h4>Refine Your Goals</h4>
                         <p>By peronalizing the results with your conversion rates.</p>          
                         <div class="webTip">
-                              <h3>Website Conversion % H17
+                              <h3>Website Conversion %
                               <input type="number" oninput="totalLeadsGoal()" id="wbCR" name="wbCR" value="1.50">
                               </h3>
-                              <span class="webHelp">Website conversion help: 1.5% is a placeholder for the conversion rate from website visitors to total leads. By editing the number, you will see the impact of an improved conversion rate.</span>
+                              <span class="webHelp">Website conversion help: 1.5% is the industry average for the conversion rate from website visitors to total leads. By editing the number, you will see the impact of a different conversion rate.</span>
                         </div>
                         <div class="leadTip">
-                        <!-- f17 -->
-                              <h3>Appointment Conversion % F17
+                              <h3>Appointment Conversion %
                                     <input type="number" value="60" oninput="totalLeadsGoal()" id="tlCR" name="TotalLeads1"> 
                               </h3>
-                              <span class="leadHelp">Lead conversion help: 10% is a placeholder for the conversion rate from total leads to total sales. You can edit the default number to reflect your current or desired conversion rate.</span>
+                              <span class="leadHelp">Appointment conversion help: 60% is the industry average for the conversion rate from total leads to total appointments when using an online sales consultant. You can edit the default number to reflect your current or desired conversion rate.</span>
                         </div>
-                        <h3>% to sale D17
-                              <input type="number" value="18" oninput="totalSalesGoal()" id="salesCR" name="SalesGoal">
-                        </h3>
-                        <span class="salesHelp">Sales help: 10% is a placeholder for the conversion rate from total leads to total sales. You can edit the default number to reflect your current or desired conversion rate.</span>
+                        <div class="salesTip">
+                              <h3>Appointments to Sales %
+                                    <input type="number" value="18" oninput="totalSalesGoal()" id="salesCR" name="SalesGoal">
+                              </h3>
+                              <span class="salesHelp">Appontments to Sales help: 18% is the industry average for the conversion rate from appointments to sales. You can edit the default number to reflect your current or desired conversion rate.</span>
+                        </div>
                   </div>
             </form>
       </div>
       <div class="questions b-box box">
-            <a href="https://share.hsforms.com/1wKceg1D0RTGtnUFT2J3I8Q2h4xk" target="new">
+            <a href="https://www.doandbe.agency/contact" target="new">
             <h3>Questions?</h3>
             <h2>Contact DO&Be</h2>
             </a>
