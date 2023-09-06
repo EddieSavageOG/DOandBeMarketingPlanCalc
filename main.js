@@ -9,15 +9,15 @@ window.addEventListener('load', (event) => {
  // New Total Leads goal is total sales goal / total leads goal CR
  function totalLeadsGoal(){
       //LeadVolume
-      let var3 = Number(document.querySelector("#TotalSales1").value)
-      let var4 = Number((document.querySelector("#tlCR").value)/100)
-      let var5 = (var3/var4);
+      let TotalSalesHolder = Number(document.querySelector("#TotalSales1").value)
+      let TotalLeadsHolder  = Number((document.querySelector("#tlCR").value)/100)
+      let LeadVolumeCalc = (TotalSalesHolder/TotalLeadsHolder);
       //  var5 = var5.toFixed(2)
-      var5 = var5.toLocaleString(
+      LeadVolumeCalc = LeadVolumeCalc.toLocaleString(
             'en-US',
             { minimumFractionDigits: 0 }
       );
-      document.querySelector("#ntlcalc").innerText = (var5);
+      document.querySelector("#ntlcalc").innerText = (LeadVolumeCalc);
       // Web traffice goals
       // New Total Leads Goal var1 and result of function totalleadsgoal / Conversion rate var2
       let var1 = Number(document.querySelector("#ntlcalc").innerText)
