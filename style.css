@@ -2,19 +2,23 @@ body {
       font-family: 'Montserrat', san-serif;
 }
 
+header {
+      display: flex;
+      flex-direction: row;
+}
+
 .top {
-      background-color: #ce1e53;
-      /* background-color: #000; */
+      width: 40%;
+
 }
 
 .top img {
-      width: 15%;
-      margin: 0 42.5%;
+      padding: 2rem;
 }
 
 .instructions {
-      max-width: 80%;
-      margin: 0 auto;
+      max-width: 40%;
+      padding: 2rem
 }
 
 sup {

@@ -9,20 +9,22 @@
 </head>
 
 <body>
-      <div class="top">
-            <img src = "doandbe-logo.PNG">
-      </div>
-      <div class="instructions">
-            <p>Help build your marketing and advertising budget by estimating the website traffic and lead volume required to generate your monthly sales goal. With this tool, you can edit the fields in yellow to drive the most accurate estimates. Your sales and marketing team can help you estimate the monthly spending required to drive results based on the results.</p>
-      </div>
-        <div class="inputs">
+      <header>
+            <div class="top">
+                  <img src = "doandbe_logo_vertical.webp">
+            </div>
+            <div class="instructions">
+                  <p>Help build your marketing and advertising budget by estimating the website traffic and lead volume required to generate your monthly sales goal. With this tool, you can edit the fields in yellow to drive the most accurate estimates. Your sales and marketing team can help you estimate the monthly spending required to drive results based on the results.</p>
+            </div>
+      </header>
+      <div class="inputs">
             <form>
                   <h2>Monthly Goals</h2>
                   <div class="y-box box">
-                  <div class="salesTip">
-                  <h3>Home Sales c17 </h3>
-                  <span class="salesHelp">Home Sales help: 5 is a placeholder number for your total sales goal. Keeping seasonality and production, you can edit the number to reflect your desired goal for a given month.</span>
-                  </div>                 
+                        <div class="salesTip">
+                              <h3>Home Sales c17 </h3>
+                              <span class="salesHelp">Home Sales help: 5 is a placeholder number for your total sales goal. Keeping seasonality and production, you can edit the number to reflect your desired goal for a given month.</span>
+                        </div>                 
                         <input type="text" oninput="totalLeadsGoal()" id="TotalSales" name="TotalSales" value="5">
                   </div>
                   <div class="results">
@@ -40,23 +42,22 @@
                         <h4>Refine Your Goals</h4>
                         <p>By peronalizing the results with your conversion rates.</p>          
                         <div class="webTip">
-                        <h3>Website Conversion % H17
+                              <h3>Website Conversion % H17
                               <input type="number" oninput="totalLeadsGoal()" id="wbCR" name="wbCR" value="1.50">
-                        </h3><span class="webHelp">Website conversion help: 1.5% is a placeholder for the conversion rate from website visitors to total leads. By editing the number, you will see the impact of an improved conversion rate.</span>
+                              </h3>
+                              <span class="webHelp">Website conversion help: 1.5% is a placeholder for the conversion rate from website visitors to total leads. By editing the number, you will see the impact of an improved conversion rate.</span>
                         </div>
                         <div class="leadTip">
                         <!-- f17 -->
                               <h3>Appointment Conversion % F17
-                              <input type="number" value="60" oninput="totalLeadsGoal()" id="tlCR" name="TotalLeads1"> 
-                        </h3>
-                        <span class="leadHelp">Lead conversion help: 10% is a placeholder for the conversion rate from total leads to total sales. You can edit the default number to reflect your current or desired conversion rate.</span>
+                                    <input type="number" value="60" oninput="totalLeadsGoal()" id="tlCR" name="TotalLeads1"> 
+                              </h3>
+                              <span class="leadHelp">Lead conversion help: 10% is a placeholder for the conversion rate from total leads to total sales. You can edit the default number to reflect your current or desired conversion rate.</span>
                         </div>
                         <h3>% to sale D17
                               <input type="number" value="18" oninput="totalSalesGoal()" id="salesCR" name="SalesGoal">
                         </h3>
                         <span class="salesHelp">Sales help: 10% is a placeholder for the conversion rate from total leads to total sales. You can edit the default number to reflect your current or desired conversion rate.</span>
-                        </div>
-                       
                   </div>
             </form>
       </div>
