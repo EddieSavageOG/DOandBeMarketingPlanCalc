@@ -242,9 +242,9 @@ input[type=number] {
       margin: 0;
 }
 
-.questions a, .questions a:visited, .questions a:hover {
+.white, .white a, .white a:visited, .white a:hover {
+      color:#FFF;
       text-decoration: none;
-      color: white;
 }
 
 .form-popup {
