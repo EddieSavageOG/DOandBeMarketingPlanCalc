@@ -8,6 +8,13 @@ header {
       margin: 0 35%;
 }
 
+@media screen and (max-width: 900px) {
+      header {
+            max-width: 75%;
+            margin: 0 12.5%;
+      }
+}
+
 .top {
       text-align: center;
       
@@ -113,6 +120,13 @@ sup {
       max-width: 30%;
       text-align: center;
       min-width: 189px;
+}
+
+@media screen and (max-width: 500px) {
+      .inputs form {
+      max-width: 75%;
+      padding: .5rem 0;
+}
 }
 
 /* label {
@@ -236,6 +250,12 @@ input[type=number] {
       max-width: 30%;
       text-align: center;
       min-width: 189px;
+}
+
+@media screen and (max-width: 500px) {
+      .questions {
+      max-width: 75%;
+}
 }
 
 .questions h3, h2{
