@@ -120,7 +120,7 @@ sup {
 } */
 
 .y-box {
-      background-color: #fecd2f;
+      background-color: #CB9F38;
       color: #000;
       min-width: 189px;
       padding: 2px;
@@ -128,7 +128,7 @@ sup {
 }
 
 .y-box input {
-      background-color: #fecd2f;
+      background-color: #CB9F38;
       color: #000;
       max-width: 95%;
 }
@@ -218,7 +218,7 @@ input[type=number] {
 .refine input {
       display: inline-block;
       width: 3rem;
-      border-color: #fecd2f;
+      border-color: #CB9F38;
       border-width:5px;
       border-style: solid;
       margin-left: .5rem;
