@@ -8,26 +8,29 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap" rel="stylesheet"> 
+      <link rel="icon" sizes="192x192" href="https://static.wixstatic.com/media/d2b623_9eafec909e314061a5f097525ccb3b91%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/d2b623_9eafec909e314061a5f097525ccb3b91%7Emv2.png" type="image/png"/>
+      <link rel="shortcut icon" href="https://static.wixstatic.com/media/d2b623_9eafec909e314061a5f097525ccb3b91%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/d2b623_9eafec909e314061a5f097525ccb3b91%7Emv2.png" type="image/png"/>
+      <link rel="apple-touch-icon" href="https://static.wixstatic.com/media/d2b623_9eafec909e314061a5f097525ccb3b91%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/d2b623_9eafec909e314061a5f097525ccb3b91%7Emv2.png" type="image/png"/>
 </head>
 
 <body>
-      <header>
+      <!-- <header>
             <div class="top">
                   <a href="https://doandbe.agency"><img src = "doandbe_logo_vertical.webp"></a>
             </div>
             <div class="instructions">
                   <p>The team at DO&Be Agency created this estimator tool to assist you in estimating the amount of website traffic and new leads necessary to meet your sales target. This tool allows you to input your sales objectives and known metrics to refine your strategy accordingly. <a href="#">Review the blog post</a> for more information on using this calculator.</p>
             </div>
-      </header>
+      </header> -->
       <div class="inputs">
             <form>
                   <h2>Monthly Goals</h2>
                   <div class="y-box box">
                         <div class="salesTip">
-                              <h3>Home Sales</h3>
-                              <span class="salesHelp">Home Sales help: 5 is a placeholder number for your total sales goal. Keeping seasonality and production, you can edit the number to reflect your desired goal for a given month.</span>
+                              <h3 class="white">Home Sales<span class="required">*</span></h3>
+                              <span class="salesHelp">Enter your monthly sales goal here.</span>
                         </div>                 
-                        <input type="text" oninput="totalLeadsGoal()" id="TotalSales" class="nums" name="TotalSales" value="5">
+                        <input type="text" oninput="totalLeadsGoal()" id="TotalSales" class="nums" name="TotalSales" value="0">
                   </div>
                   <div class="results">
                         <div class="b-box box">
@@ -42,24 +45,24 @@
                   </div>
                   <div class="refine">
                         <h4>Refine Your Goals</h4>
-                        <p>By peronalizing the results with your conversion rates.</p>          
-                        <div class="webTip">
+                        <p>You can personalize the results by inputting your unique metrics.</p>          
+                        <div class="leadTip">
                               <h3>Website Conversion %
                               <input type="number" oninput="totalLeadsGoal()" id="wbCR" name="wbCR" value="1.50">
                               </h3>
-                              <span class="webHelp">Website conversion help: 1.5% is the industry average for the conversion rate from website visitors to total leads. By editing the number, you will see the impact of a different conversion rate.</span>
+                              <span class="leadHelp">% of website traffic to leads</span>
                         </div>
                         <div class="leadTip">
                               <h3>Appointment Conversion %
                                     <input type="number" value="60" oninput="totalLeadsGoal()" id="tlCR" name="TotalLeads1"> 
                               </h3>
-                              <span class="leadHelp">Appointment conversion help: 60% is the industry average for the conversion rate from total leads to total appointments when using an online sales consultant. You can edit the default number to reflect your current or desired conversion rate.</span>
+                              <span class="leadHelp">% of leads to appointments</span>
                         </div>
-                        <div class="salesTip">
+                        <div class="leadTip">
                               <h3>Appointments to Sales %
                                     <input type="number" value="18" oninput="totalSalesGoal()" id="salesCR" name="SalesGoal">
                               </h3>
-                              <span class="salesHelp">Appontments to Sales help: 18% is the industry average for the conversion rate from appointments to sales. You can edit the default number to reflect your current or desired conversion rate.</span>
+                              <span class="leadHelp">% of appointments to sales</span>
                         </div>
                   </div>
             </form>

@@ -54,34 +54,10 @@ sup {
       padding: 5px 0;
       position: absolute;
       z-index: 1;
-      top: -8rem;
+      top: -2rem;
       left: -5rem;
 }
 .salesTip:hover .salesHelp {
-      visibility: visible;
-}
-
-.webTip {
-      position: relative;
-      display: inline-block;
-      width: 100%;
-}
-
-.webHelp {
-      visibility: hidden;
-      width: 20rem;
-      background-color: black;
-      color: white;
-      text-align: center;
-      border-radius: 15px;
-      padding: 5px 0;
-      position: absolute;
-      z-index: 1;
-      top: -8rem;
-      left: -5rem;
-}
-
-.webTip:hover .webHelp {
       visibility: visible;
 }
 
@@ -101,7 +77,7 @@ sup {
       padding: 5px 0;
       position: absolute;
       z-index: 1;
-      top: -8rem;
+      top: -1rem;
       left: -5rem;
 }
 
@@ -128,10 +104,6 @@ sup {
       padding: .5rem 0;
 }
 }
-
-/* label {
-      line-height: 3rem;
-} */
 
 .y-box {
       background-color: #CB9F38;
@@ -175,6 +147,12 @@ sup {
       color: #FFF;
 }
 
+.required {
+      color: red;
+      font-size: 150%;
+      position: absolute;
+}
+
 .error {
       color: red;
       font-style: italic;
@@ -195,8 +173,6 @@ sup {
 
 .refine {
       width: 100%;
-
-
 }
 
 .refine p {
