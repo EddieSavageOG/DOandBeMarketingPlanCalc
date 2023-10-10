@@ -17,8 +17,6 @@ header {
 
 .top {
       text-align: center;
-      
-
 }
 
 .top img {
@@ -91,7 +89,7 @@ sup {
 }
 
 .inputs form{
-      margin: 0 auto 0 auto;
+      margin: 0 auto;
       padding: .5rem 2rem;
       max-width: 30%;
       text-align: center;
@@ -102,41 +100,39 @@ sup {
       .inputs form {
       max-width: 75%;
       padding: .5rem 0;
-}
+      }
 }
 
-.y-box {
+.y-box, .y-box input {
       background-color: #CB9F38;
-      color: #000;
+}
+
+.b-box {
+      background-color: #ce1e53;
+      /* padding: 0 2px; */
+      color: #FFF;
+}
+
+.box {
       min-width: 189px;
       padding: 2px;
       margin-top: 1rem;
+
 }
 
 .y-box input {
-      background-color: #CB9F38;
       color: #000;
-      max-width: 95%;
 }
 
 .y-box h3 {
       margin: 0;
 }
 
-.b-box {
-      background-color: #ce1e53;
-      padding: 0 2px;
-      color: #FFF;
-}
-
-.b-box input {
-      background-color: #ce1e53;
-}
-
 .box input{
       border:none;
       text-align: center;
       font-weight: bolder;
+      max-width: 90%;
 }
 
 #wtrcalc {
@@ -216,12 +212,8 @@ input[type=number] {
       font-size: 1rem;
 }
 
-.refine h3+h3 input {
-      margin-left: 2rem;
-}
-
 .questions {
-      margin: 0 auto 0 auto;
+      margin: 0 auto;
       padding: 5px 0;
       max-width: 30%;
       text-align: center;
@@ -231,7 +223,7 @@ input[type=number] {
 @media screen and (max-width: 500px) {
       .questions {
       max-width: 75%;
-}
+      }
 }
 
 .questions h3, h2{
@@ -241,13 +233,6 @@ input[type=number] {
 .white, .white a, .white a:visited, .white a:hover {
       color:#FFF;
       text-decoration: none;
-}
-
-.form-popup {
-      display: inline-block;
-      border: 3px solid #f1f1f1;
-      z-index:10;
-      border: 3px solid red;
 }
 
 @media screen and (max-width: 875px){
